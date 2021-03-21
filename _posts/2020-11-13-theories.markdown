@@ -1,0 +1,23 @@
+---
+layout: post
+title: Qu'est-ce que la logique?
+date: 2020-12-09
+---
+
+Avant de rentrer dans le vif du sujet, j'aimerai aborder un petit peu ce qu'est la logique en général, et comment on peut s'y prendre pour l'étudier. Je vais donc rapidement vous expliquer les questions que se posent les logiciencs et les différents domaines qui en sont nés.
+
+### Une histoire de raisonnement.
+Le point de départ de toute cette histoire c'est de se demander ce que ca veut dire de raisonner, et comment on peut s'assurer, lorsqu'on raisonne qu'on le fait bien de façon logique. A première vue, voilà une question qui peut paraître bien inintéressante: On sait tous bien instinctivement si quelque chose est logique ou pas! Quel besoin est-ce qu'on a d'aller chercher à définir de ce que c'est, on se comprend très bien quand on dit que quelque chose est logique, ou illogique. Mais à y regarder de plus près, n'avez-vous jamais vu, ou commis une erreur de raisonnement? Il a du vous arriver souvent de débattre avec quelqu'un, et de trouver son raisonnement illogique, alors que lui le trouve parfaitement logique. Ca prouve que c'est pas si évident et intuitif, et en fait c'est même parfois très dur de savoir si quelque chose est logique ou pas. Mais ça c'est un gros problème pour les scientifiques et les philosophes qui cherchent à comprendre le monde à l'aide du raisonnement. S'ils ne sont pas capable de s'assurer que leur raisonnement est bon, comment peuvent-ils être sur de quoique ce soit?
+
+#### La logique à la rescousse.
+C'est en se posant ces questions qu'est née la logique. L'idée n'a rien d'original, puisqu'on est face à quelque chose de difficile, on va inventer un outil pour nous aider. C'est cet outil, que l'on appelle la logique en mathématiques. Mais du coup, concrètement comment on s'y prend? Et bien on va définir des règles qu'on va devoir suivre lorsque l'on raisonne, si on suit bien ces règles, on dira que le raisonnement est logique, et si on ne les suit pas, alors le raisonnement n'est pas logique, et on ne pourra pas garantir la conclusion (Notez bien qu'on peut arriver à une conclusion juste en suivant un raisonnement complètement cassé!). 
+
+
+#### Des règles pour la logique.
+
+
+### La logique mathématique, un serpent qui se mord la queue?
+Maintenant qu'on s'est fixé un cadre pour comprendre le raisonnement logique, ca serait bien de l'utiliser un peu, de savoir quelles règles on va mettre, de comprendre ce que ce cadre nous permet, bref, d'étudier la logique. Mais comment on fait tout ça? En utilisant le raisonnement bien sûr.
+
+#### Mais alors la logique sert à valider les raisonnements, et on valide la logique par des raisonnements?
+Eh oui, c'est pas une très bonne solution, mais c'est malheureusement la seule qu'on a: Comment raisonner à propos de notre outil pour le raisonnement?
