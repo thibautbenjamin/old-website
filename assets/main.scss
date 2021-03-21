@@ -1,0 +1,66 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+@import "colors";
+@import "lists";
+
+/**
+ * Homepage
+ */
+
+.homepage-col-wrapper {
+    @include relative-font-size(0.9375);
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+
+.homepage-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.homepage-info{
+    width: -webkit-calc(42% - (#{$spacing-unit} / 2));
+    width:         calc(42% - (#{$spacing-unit} / 2));
+
+}
+
+.homepage-content{
+    @extend .post-content;
+    width: -webkit-calc(58% - (#{$spacing-unit} / 2));
+    width:         calc(58% - (#{$spacing-unit} / 2));
+}
+
+.info-picture {
+    max-width: 70%;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**
+* Reajust footer columns
+*/
+
+.footer-col-1 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+

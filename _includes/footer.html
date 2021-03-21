@@ -1,0 +1,34 @@
+<footer class="site-footer h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+    <div class="wrapper">
+
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <p>{{- site.description | escape -}}</p>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <ul class="contact-list">
+                    {%- if site.cv -%}
+                    <li> <a href="{{ site.cv }}"><span class="icon">{% include icon-cv.svg %}</span><span class="username">CV</span></a></li>
+                    {%- endif -%}
+                    {%- if site.email -%}
+                    <li> <a href="mailto:{{ site.email }}"><span class="icon">{% include icon-email.svg %}</span><span class="username">{{ site.printed_email }}</span></a></li>
+                    {%- endif -%}
+                </ul>
+            </div>
+
+            <div class="footer-col footer-col-3">
+                {%- include social.html -%}
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</footer>

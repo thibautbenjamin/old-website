@@ -1,0 +1,51 @@
+$light-color: #a9b1fb;
+$title-color: #4f5ac6;
+$hover-color: #242958;
+$black: #000000;
+
+/**
+ * Color theme
+ */
+.site-header {
+    border-top: 5px solid $title-color;
+}
+
+.site-title {
+    color: $title-color;
+}
+
+h3, h4, h5, h6 {
+    color: $title-color;
+}
+
+.footer-heading {
+    color: $black;
+}
+
+.info-heading {
+    color: $black;
+    text-align: center;
+}
+
+.info-picture {
+    border: 1px solid $title-color;
+    padding: 5px;
+}
+
+a:link {
+    color: $title-color;
+}
+
+a:hover {
+    color: $hover-color;
+}
+
+.site-footer {
+    a:link{
+        color: $grey-color;
+    }
+    a:hover{
+        color: $title-color;
+    }
+}
+

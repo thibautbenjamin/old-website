@@ -1,0 +1,25 @@
+<ul class="contact-list">
+    <h2 class = "info-heading">
+    <li>
+            {%- if site.author -%}
+            {{ site.author | escape }}
+            {%- else -%}
+            {{ site.title | escape }}
+            {%- endif -%}
+    </li>
+    </h2>
+    {%- if site.picture -%}
+    <li><img src={{ site.picture }} class="info-picture"></li>
+    {%- endif -%}
+    {%- if site.cv -%}
+    <li> <a href="{{ site.cv }}"><span class="icon">{% include icon-cv.svg %}</span><span class="username">CV</span></a></li>
+    {%- endif -%}
+    {%- if site.email -%}
+    <li> <a href="mailto:{{ site.email }}"><span class="icon">{% include icon-email.svg %}</span><span class="username">{{ site.printed_email }}</span></a></li>
+    {%- endif -%}
+
+    <div>
+        {%- include social.html -%}
+    </div>
+
+</ul>
