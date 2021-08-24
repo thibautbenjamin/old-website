@@ -17,7 +17,6 @@ Among computer languages, I am very interested in the flavours of type theories 
 
 I am also interested in higher dimensional algebra and the coherence problems that are at its core. This problem appears in areas ranging from algebraic topology to the equality types of dependent type theory. I am very interested in homotopy type theory as a framework to unite these worlds and provide a connection between proofs, programs and spaces.
 
-
 ### Teaching
 During my PhD, I have supervised the practicals Java beginner’s class at Ecole
 Polytechnique for three years, and for its follow-up class for two years. I have
