@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    <data class="u-url" href="{{ "/" | absolute_url }}"></data>
 
     <div class="wrapper">
 
@@ -13,7 +13,7 @@
             <div class="footer-col footer-col-2">
                 <ul class="contact-list">
                     {%- if site.cv -%}
-                    <li> <a href="{{ site.cv }}"><span class="icon">{% include icon-cv.svg %}</span><span class="username">CV</span></a></li>
+                    <li> <a href="{{ site.cv | absolute_url}}"><span class="icon">{% include icon-cv.svg %}</span><span class="username">CV</span></a></li>
                     {%- endif -%}
                     {%- if site.email -%}
                     <li> <a href="mailto:{{ site.email }}"><span class="icon">{% include icon-email.svg %}</span><span class="username">{{ site.printed_email }}</span></a></li>
@@ -24,6 +24,7 @@
             <div class="footer-col footer-col-3">
                 {%- include social.html -%}
             </div>
+
         </div>
 
         <div class="footer-col-wrapper">
